@@ -1,0 +1,46 @@
+[
+  {
+    "SQLServerDBConnectionString": "REDACTED",
+    "controlPanelLink": "https://portal.azure.com",
+    "databases": null,
+    "destinationAppUrl": "https://swt2vv-webapp-eyhgbgatgphbhhe2.westus3-01.azurewebsites.net",
+    "hostingProviderForumLink": "",
+    "msdeploySite": "swt2vv-webapp",
+    "mySQLDBConnectionString": "",
+    "profileName": "swt2vv-webapp - Web Deploy",
+    "publishMethod": "MSDeploy",
+    "publishUrl": "swt2vv-webapp-eyhgbgatgphbhhe2.scm.westus3-01.azurewebsites.net:443",
+    "userName": "REDACTED",
+    "userPWD": "REDACTED",
+    "webSystem": "WebSites"
+  },
+  {
+    "SQLServerDBConnectionString": "REDACTED",
+    "controlPanelLink": "https://portal.azure.com",
+    "databases": null,
+    "destinationAppUrl": "https://swt2vv-webapp-eyhgbgatgphbhhe2.westus3-01.azurewebsites.net",
+    "ftpPassiveMode": "True",
+    "hostingProviderForumLink": "",
+    "mySQLDBConnectionString": "",
+    "profileName": "swt2vv-webapp - FTP",
+    "publishMethod": "FTP",
+    "publishUrl": "ftps://waws-prod-usw3-007.ftp.azurewebsites.windows.net/site/wwwroot",
+    "userName": "REDACTED",
+    "userPWD": "REDACTED",
+    "webSystem": "WebSites"
+  },
+  {
+    "SQLServerDBConnectionString": "REDACTED",
+    "controlPanelLink": "https://portal.azure.com",
+    "databases": null,
+    "destinationAppUrl": "https://swt2vv-webapp-eyhgbgatgphbhhe2.westus3-01.azurewebsites.net",
+    "hostingProviderForumLink": "",
+    "mySQLDBConnectionString": "",
+    "profileName": "swt2vv-webapp - Zip Deploy",
+    "publishMethod": "ZipDeploy",
+    "publishUrl": "swt2vv-webapp-eyhgbgatgphbhhe2.scm.westus3-01.azurewebsites.net:443",
+    "userName": "REDACTED",
+    "userPWD": "REDACTED",
+    "webSystem": "WebSites"
+  }
+]

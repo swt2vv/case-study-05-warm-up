@@ -12,6 +12,11 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "tinyllama")
 def home():
     return render_template("index.html")
 
+@app.route("/api/health")
+def health():
+    return {"status": "ok"}
+
+
 # Stage 1: echo
 @app.post("/api/echo")
 def echo():
@@ -145,6 +150,9 @@ def agent_endpoint():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
 if __name__ == "__main__":
     port = int(os.getenv("PORT", "5000"))
     app.run(host="0.0.0.0", port=port, debug=True)
+
+
